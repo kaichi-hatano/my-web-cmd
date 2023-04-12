@@ -1,18 +1,22 @@
 .tab {
-    width: 500px;
+    width: 400px;
+    margin: auto;
 }
 .tab-nav {
     display: flex;
 }
 .tab-nav-item {
-    background: #ccc;
-    color: #000;
+    width: 100px;
+    background: #ffa6a6;
+    color: #ff0000;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px 5px 0 0;
+    font-weight: bold;
+    text-align: center;
 }
 .tab-nav-item.is-active {
-    background: #000;
+    background: #ff0000;
     color: #fff;
 }
 
@@ -22,24 +26,27 @@
 }
 .tab-contents-item {
     display: none;
+    background-color: #ffd5d5;
 }
 
 
 #accordion
 .accordion {
-    width: 500px;
-    margin: 0 auto;
+    width: 200px;
+    margin: auto;
 }
 .accordion-trigger {
     padding: 10px;
     display: block;
-    background: #333;
-    color: #fff;
+    background: #e2ff02;
+    color: #2600ff;
     border-top: 1px splid #fff;
+    text-decoration: none;
 }
 .accordion-contents {
     margin: 0;
     padding: 10px;
     border: 1px solid #ccc;
     display: none;
+    background-color: #38d7ff
 }
